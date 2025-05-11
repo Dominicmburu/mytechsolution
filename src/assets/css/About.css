@@ -1,0 +1,412 @@
+/* About Page Specific Styles */
+
+/* About Section */
+.about-image-wrapper {
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.about-badge {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 180px;
+  height: 180px;
+  background: #7c3aed;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.about-badge h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+
+/* Certification Badges */
+.certification-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.certification-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(124, 58, 237, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certification-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #7c3aed;
+}
+
+/* Team Section */
+.team-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-section::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  background: rgba(124, 58, 237, 0.1);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.team-section::after {
+  content: '';
+  position: absolute;
+  bottom: -150px;
+  right: -150px;
+  width: 300px;
+  height: 300px;
+  background: rgba(124, 58, 237, 0.05);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.team-member-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.team-member-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.team-member-card:hover .team-member-image {
+  transform: scale(1.05);
+}
+
+.team-member-info {
+  padding: 1.5rem;
+  text-align: center;
+  background: white;
+}
+
+/* Achievements Section */
+.achievements-section {
+  background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.achievements-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  width: 50%;
+  height: 200%;
+  background: rgba(255,255,255,0.05);
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.achievement-item {
+  position: relative;
+  z-index: 2;
+}
+
+.achievement-icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  transition: all 0.3s ease;
+}
+
+.achievement-item:hover .achievement-icon {
+  background: rgba(255,255,255,0.2);
+  transform: scale(1.1);
+}
+
+.achievement-icon svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.achievement-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-label {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.1rem;
+}
+
+/* Why Choose Us Section */
+.why-choose-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.why-choose-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+}
+
+.why-choose-shape {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: rgba(124, 58, 237, 0.1);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.why-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+.why-feature-item svg {
+  width: 20px;
+  height: 20px;
+  color: #7c3aed;
+  flex-shrink: 0;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background: #1e1b4b;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/api/placeholder/1920/600');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-card::before {
+  content: '❝';
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 8rem;
+  color: rgba(124, 58, 237, 0.1);
+  font-family: serif;
+  line-height: 1;
+}
+
+.testimonial-rating {
+  margin-bottom: 1rem;
+}
+
+.testimonial-rating .star {
+  color: #fbbf24;
+  font-size: 1.2rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.testimonial-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #7c3aed;
+}
+
+.testimonial-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background: #7c3aed;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  opacity: 0.1;
+}
+
+/* Blog Section */
+.blog-section {
+  position: relative;
+}
+
+.blog-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-image {
+  transform: scale(1.05);
+}
+
+.blog-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.blog-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.blog-author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.blog-link {
+  color: #7c3aed;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: gap 0.3s ease;
+}
+
+.blog-link:hover {
+  gap: 1rem;
+}
+
+/* Partner Logos */
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.partner-logo {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.partner-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-badge {
+    width: 140px;
+    height: 140px;
+    bottom: -20px;
+    right: -20px;
+  }
+  
+  .about-badge h2 {
+    font-size: 2.5rem;
+  }
+  
+  .achievement-number {
+    font-size: 2.5rem;
+  }
+  
+  .partner-logos {
+    gap: 2rem;
+  }
+}
