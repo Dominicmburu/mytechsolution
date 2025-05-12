@@ -47,13 +47,13 @@ const Navbar = () => {
           <div className="d-flex justify-content-between align-items-center">
             <div className="d-flex align-items-center text-white">
               <span className="me-4">
-                <i className="fas fa-map-marker-alt me-2"></i> 54 NJ-12, Flemington, United States
+                <i className="fas fa-map-marker-alt me-2"></i> Nyeri, Kenya
               </span>
               <span className="me-4">
-                <i className="fas fa-phone me-2"></i> +153-987-3657
+                <i className="fas fa-phone me-2"></i> +2547 06 526 569
               </span>
               <span>
-                <i className="fas fa-envelope me-2"></i> info@webteck.com
+                <i className="fas fa-envelope me-2"></i> info@dtechify.com
               </span>
             </div>
             <div className="d-flex align-items-center">
@@ -73,9 +73,9 @@ const Navbar = () => {
         <Container>
           <BSNavbar.Brand as={Link} to="/" className="fw-bold text-purple fs-2 d-flex align-items-center">
             <div className="bg-purple text-white p-2 rounded me-2" style={{width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-              <span className="fw-bold">W</span>
+              <span className="fw-bold">D</span>
             </div>
-            WebTeck
+            DTechify
           </BSNavbar.Brand>
 
           <BSNavbar.Toggle aria-controls="navbarNav" />
@@ -98,7 +98,7 @@ const Navbar = () => {
               </Nav.Link>
 
               <NavDropdown 
-                title={<span className="fw-medium">SERVICES <ChevronDown size={14} className="ms-1" /></span>} 
+                title={<span className="fw-medium">SERVICES </span>} 
                 id="services-dropdown"
                 className="nav-dropdown"
               >
@@ -110,7 +110,7 @@ const Navbar = () => {
               </NavDropdown>
 
               <NavDropdown 
-                title={<span className="fw-medium">PAGES <ChevronDown size={14} className="ms-1" /></span>} 
+                title={<span className="fw-medium">PAGES</span>} 
                 id="pages-dropdown"
                 className="nav-dropdown"
               >
@@ -122,7 +122,7 @@ const Navbar = () => {
               </NavDropdown>
 
               <NavDropdown 
-                title={<span className="fw-medium">BLOG <ChevronDown size={14} className="ms-1" /></span>} 
+                title={<span className="fw-medium">BLOG</span>} 
                 id="blog-dropdown"
                 className="nav-dropdown"
               >

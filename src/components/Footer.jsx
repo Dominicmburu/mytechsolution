@@ -16,7 +16,7 @@ const Footer = () => {
                     <Phone className="me-3" size={20} />
                     <div>
                       <p className="mb-0 small">Quick Call Us:</p>
-                      <p className="mb-0 fw-semibold">+180-8800-0393</p>
+                      <p className="mb-0 fw-semibold">+2547 06 526 569</p>
                     </div>
                   </div>
                 </Col>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <Mail className="me-3" size={20} />
                     <div>
                       <p className="mb-0 small">Mail Us On:</p>
-                      <p className="mb-0 fw-semibold">Info@webteck.com</p>
+                      <p className="mb-0 fw-semibold">Info@dtechify.com</p>
                     </div>
                   </div>
                 </Col>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <MapPin className="me-3" size={20} />
                     <div>
                       <p className="mb-0 small">Visit Location:</p>
-                      <p className="mb-0 fw-semibold">54 Flemington, USA</p>
+                      <p className="mb-0 fw-semibold">Nyeri, Kenya</p>
                     </div>
                   </div>
                 </Col>
@@ -43,9 +43,9 @@ const Footer = () => {
             <Col lg={4} className="text-lg-end">
               <Link to="/" className="text-white text-decoration-none fs-2 fw-bold d-flex align-items-center justify-content-lg-end">
                 <div className="bg-white text-purple p-2 rounded me-2">
-                  <span className="fw-bold">W</span>
+                  <span className="fw-bold">D</span>
                 </div>
-                WebTeck
+                DTechify
               </Link>
             </Col>
           </Row>
@@ -163,13 +163,11 @@ const Footer = () => {
           <Row className="align-items-center">
             <Col md={6} className="text-center text-md-start">
               <p className="mb-0 text-white-50">
-                Copyright © 2024 <Link to="/" className="text-purple text-decoration-none">Webteck</Link>. 
-                All Rights Reserved by <a href="#" className="text-purple text-decoration-none">Themeholy</a>
+                Copyright © 2025 <Link to="/" className="text-purple text-decoration-none">DTechify</Link>
               </p>
             </Col>
             <Col md={6} className="text-center text-md-end">
               <Link to="/terms" className="text-white-50 text-decoration-none hover-purple me-3">Terms & Condition</Link>
-              <Link to="/careers" className="text-white-50 text-decoration-none hover-purple me-3">Careers</Link>
               <Link to="/privacy" className="text-white-50 text-decoration-none hover-purple">Privacy Policy</Link>
             </Col>
           </Row>
